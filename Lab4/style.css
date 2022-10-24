@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(229, 255, 204);
+}
+
+#add {
+    background-color: green;
+}
+
+#increase{
+    background-color: yellowgreen;
+}
+
+#decrease{
+    background-color: yellowgreen;
+}
+
+#remove {
+    background-color: red;
+}
