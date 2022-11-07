@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Мачило Р. П., ІК-01, лабораторна 1, варіант 10</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A markup language HTML-5" />
+    <meta name="keywords" content="HTML, Git, markup, front-end" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="task1">        
+        <div id="container">
+            <h2>Форма для заповнення</h2>
+            <form id="form">
+                <div class="form_field">
+                    <input type="text" id="pib" maxlength="32" placeholder="ПІБ">
+                </div>
+                <div class="form_field">
+                    <input type="text" id="group" maxlength="5" placeholder="Група">
+                </div>
+                <div class="form_field">
+                    <input type="text" id="phone_number" maxlength="15" placeholder="Телефон">
+                </div>
+                <div class="form_field">
+                    <input type="text" id="address" maxlength="32" placeholder="Адреса">
+                </div>
+                <div class="form_field">
+                    <input type="text" id="email" maxlength="32" placeholder="e-mail">
+                </div>
+                <div>
+                    <button type="button" id="button_confirm" onclick="checkValidationForm()" class="button_">Підтвердити</button>
+                </div>                    
+            </form>            
+        </div>
+        <div id="inform">
+            <h3>Введені дані:</h3>
+            <p><b>ПІБ:</b> <span id="pib_info"></span></p>
+            <p><b>Група:</b> <span id="group_info"></span></p>
+            <p><b>Телефон:</b> <span id="phone_number_info"></span></p>
+            <p><b>Адреса:</b> <span id="email_info"></span></p>
+            <p><b>e-mail:</b> <span id="inf_address"></span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
