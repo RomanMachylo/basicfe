@@ -19,10 +19,10 @@ async function add() {
             <img src="${person.picture.medium}" alt="">
         </div>
         <div>
-            <p><b>Name:</b> ${person.name.title} ${person.name.first} ${person.name.last}</p>
+            <p><b>Cell:</b> ${person.cell}</p>
             <p><b>City:</b> ${person.location.city}</p>
-            <p><b>Postcode:</b> ${person.location.postcode}</p>
-            <p><b>Phone:</b> ${person.phone}</p>
+            <p><b>Email:</b> ${person.email}</p>
+            <p><b>Coordinates:</b> ${person.location.coordinates.latitude} ${person.location.coordinates.longitude} </p>
         </div>
     </div>`;
 
